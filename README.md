@@ -1,50 +1,5 @@
-BACCALAUREAT  
+EXERCICE 1 (4 points) 
 
-SESSION 2021 
-__________________ 
-
-Épreuve de l’enseignement de spécialité 
- 
-NUMERIQUE et SCIENCES 
-INFORMATIQUES 
-
-Partie pratique 
-
-Classe Terminale de la voie générale 
-_________________ 
-
-Sujet n°15 
-__________________ 
-
-DUREE DE L’EPREUVE : 1 heure 
-
-Le sujet comporte 3 pages numérotées de 1 / 3 à 3 / 3 
-Dès que le sujet vous est remis, assurez-vous qu’il est complet. 
-
- 
-Le candidat doit traiter les 2 exercices. 
-
- 
-
- 1 / 4 
-
- 
-
- 
-
- 
- 
-
- 
-
- 
-
- 
-
-EXERCICE 1 (4 points) 
-
- 
- 
  
 Écrire une fonction RechercheMinMax qui prend en paramètre un tableau de nombres 
 non triés  tab, et qui renvoie la plus petite et la plus grande valeur du tableau sous la 
@@ -64,33 +19,7 @@ Exemples :
 >>> resultat 
 {'min': None, 'max': None} 
 
- 
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 2 / 4 
-
-EXERCICE 2 (4 points) 
+EXERCICE 2 (4 points) 
 
 On dispose d’un programme permettant de créer un objet de type PaquetDeCarte, 
 selon les éléments indiqués dans le code ci-dessous. 
@@ -142,13 +71,7 @@ class PaquetDeCarte:
  
  
 
- 3 / 4 
-
- 
-
- 
-
->>> unPaquet = PaquetDeCarte() 
+>>> unPaquet = PaquetDeCarte() 
 >>> unPaquet.remplir() 
 >>> uneCarte = unPaquet.getCarteAt(20) 
 >>> print(uneCarte.getNom() + " de " + uneCarte.getCouleur()) 
@@ -156,14 +79,3 @@ class PaquetDeCarte:
 Exemple :  
 
 6 de coeur  
-
- 
- 
-
- 
-
- 
-
- 4 / 4 
-
-
